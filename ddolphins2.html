@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ddd;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fashion World</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men's Fashion</a>
+        <a href="#">Women's Fashion</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <div class="product">
+            <h2>Product 1</h2>
+            <img src="our collection.jpeg" alt="Product 2">
+            <p>Step into timeless beauty with our traditional saree collection. Rich in heritage, these sarees blend classic charm with modern allure. Own this piece of tradition for just 3,299 and drape yourself in the simplicity and elegance of our cultural heritage..</p>
+            <button>Add to Cart</button>
+            <button>Buy</button>
+        </div>
+    </section>
+
+        <div class="product">
+            <h2>Product 2</h2>
+            <img src="our collection.jpeg" alt="Product 2">
+            <p>Indulge in regal charm with our Churidar Royal collection. These outfits exude sophistication and grace, blending traditional aesthetics with modern allure. Elevate your style effortlessly with a touch of royal finesse. Priced at just 3,299, embrace the majestic allure of our Churidar Royal ensemble.</p>
+            <button>Add to Cart</button>
+            <button>Buy</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fashion World</p>
+    </footer>
+
+</body>
+</html>
